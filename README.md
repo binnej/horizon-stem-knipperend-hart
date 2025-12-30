@@ -42,5 +42,26 @@ Goed tijd om het kloppende hart te maken. Je programma moet de hele tijd het vol
 Maak je programma af, gebruik enkel deze blokjes:
 ``||basic: toon pictogram||``, ``||basic: wis scherm||`` en ``||basic: pauzeer (ms)||``
 
-Klaar? Zet een screenshot van je programma in je werkbundel.
+Druk daarna op volgende.
+
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## @showDialog
+
+Heb je al gemerkt dat er een microbit op je scherm staat? Deze virtuele microbit draait jouw programma. Handig,
+zo kan je nakijken of alles naar behoren werkt. Je kan zelfs met je muis op knop A en B klikken. Dat zal nu nog niet veel doen.
+Je hebt dat immers nog niet geprogrammeerd... Voor je een programma op de microbit zet, is het slim om even te kijken of alles werkt
+op de virtuele microbit. Daar zie je snel of alles werkt en kan je je programma nog corrigeren. 
+
+## 
+
+Kijk naar de virtuele microbit. Doet je programma wat je verwacht? Goed! Anders, kijk even na wat er mis is. Je kan bij de hints
+ook de modeloplossing vinden. 
+```
+while (true) {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
+    basic.clearScreen()
+    basic.pause(500)
+}
+```
