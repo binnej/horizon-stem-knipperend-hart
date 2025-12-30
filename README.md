@@ -37,9 +37,10 @@ Goed tijd om het kloppende hart te maken. Je programma moet de hele tijd het vol
 [Text to link](https://www.google.com)
 
 
-<img width="320" height="184" alt="afbeelding" src="https://github.com/user-attachments/assets/bf24f4ac-8d34-432a-b647-067f56d46363" />
+<img width="160" height="92" alt="afbeelding" src="https://github.com/user-attachments/assets/bf24f4ac-8d34-432a-b647-067f56d46363" />
 
-#### Metadata (gebruikt voor zoeken, rendering)
+Maak je programma af, gebruik enkel deze blokjes:
+``||basic: toon pictogram||``, ``||basic: wis scherm||`` en ``||basic: pauzeer (ms)||``
 
-* for PXT/microbit
+Klaar? Zet een screenshot van je programma in je werkbundel.
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
