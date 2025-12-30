@@ -34,12 +34,9 @@ Alle blokjes in het ``||loops: terwijl - doe||`` blokje zullen nu voor eeuwig he
 ##
 
 Goed tijd om het kloppende hart te maken. Je programma moet de hele tijd het volgende uitvoeren:
-```
-* Herhaal eeuwig
-** Toon hartje.
-**   Wacht even.
-**   Wis het scherm.
-```
+
+<img width="320" height="184" alt="afbeelding" src="https://github.com/user-attachments/assets/bf24f4ac-8d34-432a-b647-067f56d46363" />
+
 #### Metadata (gebruikt voor zoeken, rendering)
 
 * for PXT/microbit
