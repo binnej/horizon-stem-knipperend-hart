@@ -1,23 +1,45 @@
 
-> Open deze pagina op [https://binnej.github.io/horizon-stem-knipperend-hart/](https://binnej.github.io/horizon-stem-knipperend-hart/)
+# Horizon STEM: Kloppend hart
 
-## Gebruiken als extensie
+## @showdialog
 
-Deze repository kan worden toegevoegd als **extensie** in MakeCode.
+In je eerste programma toon je een kloppend hart op het schermpje van je microbit. 
+Heb je vroeger reeds een kloppend hart gemaakt? Let dan even op, want je zal zien
+dat je het hier iets anders moet doen. We willen je immers de echte basis van programmeren aanleren.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klik op **Nieuw project**
-* klik op **Extensies** onder het tandwielmenu
-* zoeken naar **https://github.com/binnej/horizon-stem-knipperend-hart** en importeren
 
-## Dit project bewerken
+## 
 
-Om deze repository te bewerken in MakeCode.
+Je hebt het ``||basic: de hele tijd||`` blokje niet nodig. Sleep het terug in de gereedschapskist om het te verwijderen. 
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klik op **Importeren** en klik vervolgens op **Importeer URL**
-* plak **https://github.com/binnej/horizon-stem-knipperend-hart** en klik op importeren
+## 
 
+Zoek het ``||loops: terwijl - doe||`` blokje. Je vindt het bij ``||Loops: Lussen||``. Sleep het blokje in het ``||basic: bij opstarten||`` blokje. 
+
+## @showdialog
+
+Het ``||loops: terwijl - doe||`` doe blokje herhaalt alle opdrachten die je erin plaatst. Het is zeer gelijkaardig aan het 
+herhalen totdat blokje van het doolhof. In het doolhof programma bleef de computer de instructies herhalen totdat 
+het mannetje aan zijn eindbestemming kwam. Bij de microbit kan je zelf instellen hoe lang de microbit het moet herhalen.
+Het hart moet eeuwig blijven kloppen. De microbit moet de code dus eeuwig herhalen.
+
+##
+
+Verander de voorwaarde in het ``||loops: terwijl - doe||`` van ``||logic: onwaar||`` naar ``||logic: waar||``.
+Klik daarvoor op het driehoekje naast waar. 
+
+Alle blokjes in het ``||loops: terwijl - doe||`` blokje zullen nu voor eeuwig herhaald worden. 
+
+
+##
+
+Goed tijd om het kloppende hart te maken. Je programma moet de hele tijd het volgende uitvoeren:
+```
+* Herhaal eeuwig
+** Toon hartje.
+**   Wacht even.
+**   Wis het scherm.
+```
 #### Metadata (gebruikt voor zoeken, rendering)
 
 * for PXT/microbit
